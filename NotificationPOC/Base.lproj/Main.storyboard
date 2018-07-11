@@ -20,7 +20,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHh-sh-kQa">
                                 <rect key="frame" x="170" y="278" width="34" height="30"/>
-                                <state key="normal" title="Valid"/>
+                                <state key="normal" title="Valid">
+                                    <color key="titleColor" red="0.11085320219311917" green="0.71041126943005184" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="onClickValid:" destination="bIP-SC-lc2" eventType="touchUpInside" id="dVS-ON-n2j"/>
                                 </connections>
@@ -83,13 +85,21 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEX-jL-OHo">
                                 <rect key="frame" x="170" y="278" width="34" height="30"/>
-                                <state key="normal" title="Valid"/>
+                                <state key="normal" title="Valid">
+                                    <color key="titleColor" red="0.11085320219311917" green="0.71041126943005184" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onClickValid:" destination="OX2-Hc-lxr" eventType="touchUpInside" id="CPu-iU-GCA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qoz-sh-ChA">
                                 <rect key="frame" x="165" y="362" width="44" height="30"/>
                                 <state key="normal" title="Invalid">
                                     <color key="titleColor" red="1" green="0.25558580040000001" blue="0.27114468089999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickInvalid:" destination="OX2-Hc-lxr" eventType="touchUpInside" id="ObT-gK-19F"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftMessages" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLg-fV-9m9">
                                 <rect key="frame" x="16" y="204" width="343" height="21"/>
