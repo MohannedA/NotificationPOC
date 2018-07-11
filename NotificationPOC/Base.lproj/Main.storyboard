@@ -21,12 +21,18 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHh-sh-kQa">
                                 <rect key="frame" x="170" y="278" width="34" height="30"/>
                                 <state key="normal" title="Valid"/>
+                                <connections>
+                                    <action selector="onClickValid:" destination="bIP-SC-lc2" eventType="touchUpInside" id="dVS-ON-n2j"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVL-jz-Fp4">
                                 <rect key="frame" x="165" y="362" width="44" height="30"/>
                                 <state key="normal" title="Invalid">
                                     <color key="titleColor" red="1" green="0.25558580040000001" blue="0.27114468089999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onClickInvalid:" destination="bIP-SC-lc2" eventType="touchUpInside" id="CnB-xX-7Gh"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NotificationBanner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8G-FH-oAU">
                                 <rect key="frame" x="16" y="204" width="343" height="21"/>
