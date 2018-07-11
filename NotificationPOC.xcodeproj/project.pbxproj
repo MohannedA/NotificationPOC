@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		04D1C18B20F5F4FF00294F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1C18A20F5F4FF00294F7F /* AppDelegate.swift */; };
-		04D1C18D20F5F4FF00294F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1C18C20F5F4FF00294F7F /* ViewController.swift */; };
+		04D1C18D20F5F4FF00294F7F /* NotificationBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1C18C20F5F4FF00294F7F /* NotificationBannerViewController.swift */; };
 		04D1C19020F5F4FF00294F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D1C18E20F5F4FF00294F7F /* Main.storyboard */; };
 		04D1C19220F5F4FF00294F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D1C19120F5F4FF00294F7F /* Assets.xcassets */; };
 		04D1C19520F5F4FF00294F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D1C19320F5F4FF00294F7F /* LaunchScreen.storyboard */; };
+		04D1C19E20F5F6B700294F7F /* SwiftMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1C19D20F5F6B700294F7F /* SwiftMessagesViewController.swift */; };
+		3A65EBF7107831A59AA1B457 /* Pods_NotificationPOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713F1AF739D651EAE8171AA0 /* Pods_NotificationPOC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04D1C18720F5F4FF00294F7F /* NotificationPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D1C18A20F5F4FF00294F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04D1C18C20F5F4FF00294F7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04D1C18C20F5F4FF00294F7F /* NotificationBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBannerViewController.swift; sourceTree = "<group>"; };
 		04D1C18F20F5F4FF00294F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D1C19120F5F4FF00294F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D1C19420F5F4FF00294F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D1C19620F5F4FF00294F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D1C19D20F5F6B700294F7F /* SwiftMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMessagesViewController.swift; sourceTree = "<group>"; };
+		2FDD6238F7ACC841FFF124AA /* Pods-NotificationPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationPOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationPOC/Pods-NotificationPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		713F1AF739D651EAE8171AA0 /* Pods_NotificationPOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationPOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B40A35E2013F0D750108DF /* Pods-NotificationPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationPOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationPOC/Pods-NotificationPOC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A65EBF7107831A59AA1B457 /* Pods_NotificationPOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				04D1C18920F5F4FF00294F7F /* NotificationPOC */,
 				04D1C18820F5F4FF00294F7F /* Products */,
+				7706CDCBFA5C571624C1099E /* Pods */,
+				13401F2D2A327B1E2275B5AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				04D1C18A20F5F4FF00294F7F /* AppDelegate.swift */,
-				04D1C18C20F5F4FF00294F7F /* ViewController.swift */,
+				04D1C18C20F5F4FF00294F7F /* NotificationBannerViewController.swift */,
 				04D1C18E20F5F4FF00294F7F /* Main.storyboard */,
 				04D1C19120F5F4FF00294F7F /* Assets.xcassets */,
 				04D1C19320F5F4FF00294F7F /* LaunchScreen.storyboard */,
 				04D1C19620F5F4FF00294F7F /* Info.plist */,
+				04D1C19D20F5F6B700294F7F /* SwiftMessagesViewController.swift */,
 			);
 			path = NotificationPOC;
+			sourceTree = "<group>";
+		};
+		13401F2D2A327B1E2275B5AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				713F1AF739D651EAE8171AA0 /* Pods_NotificationPOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7706CDCBFA5C571624C1099E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FDD6238F7ACC841FFF124AA /* Pods-NotificationPOC.debug.xcconfig */,
+				78B40A35E2013F0D750108DF /* Pods-NotificationPOC.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D1C19920F5F4FF00294F7F /* Build configuration list for PBXNativeTarget "NotificationPOC" */;
 			buildPhases = (
+				C65AC1DF0CB7448F5CD93FC0 /* [CP] Check Pods Manifest.lock */,
 				04D1C18320F5F4FF00294F7F /* Sources */,
 				04D1C18420F5F4FF00294F7F /* Frameworks */,
 				04D1C18520F5F4FF00294F7F /* Resources */,
+				AA0E61714C7DB578380809EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +159,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AA0E61714C7DB578380809EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NotificationPOC/Pods-NotificationPOC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationPOC/Pods-NotificationPOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C65AC1DF0CB7448F5CD93FC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationPOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04D1C18320F5F4FF00294F7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D1C18D20F5F4FF00294F7F /* ViewController.swift in Sources */,
+				04D1C19E20F5F6B700294F7F /* SwiftMessagesViewController.swift in Sources */,
+				04D1C18D20F5F4FF00294F7F /* NotificationBannerViewController.swift in Sources */,
 				04D1C18B20F5F4FF00294F7F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +353,7 @@
 		};
 		04D1C19A20F5F4FF00294F7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDD6238F7ACC841FFF124AA /* Pods-NotificationPOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +371,7 @@
 		};
 		04D1C19B20F5F4FF00294F7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B40A35E2013F0D750108DF /* Pods-NotificationPOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
